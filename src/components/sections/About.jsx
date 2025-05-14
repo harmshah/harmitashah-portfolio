@@ -71,7 +71,7 @@ export const About = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+          <div className="flex flex-col gap-6 mt-8">
           <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4">Education</h3>
               <ul className="list-disc lisi-inside text-gray-300 space-y-2">
@@ -80,20 +80,22 @@ export const About = () => {
                     Mobile Application Development (Ontario College
                     Post-Graduate Certificate)
                   </strong>{" "}
-                  - Georgian College, Canada (01/2023-08/2023)
+                  <br/>- Georgian College, Canada (01/2023-08/2023)
                 </li>
+                <br/>
                 <li>
                   <strong>
                     Project Management (Ontario College Post-Graduate
                     Certificate)
                   </strong>{" "}
-                  - Sault College, Canada (05/2022-12/2022)
+                  <br/>- Sault College, Canada (05/2022-12/2022)
                 </li>
+                <br/>
                 <li>
                   <strong>
                     Computer Science and Engineering (Bachelor of Engineering)
                   </strong>{" "}
-                  - Gujarat Technological University, India (06/2012-06/2016)
+                  <br/>- Gujarat Technological University, India (06/2012-06/2016)
                 </li>
               </ul>
             </div>   
@@ -105,12 +107,12 @@ export const About = () => {
               <div className="space-y-4 text-gray-300">
                 
               <div>
-                  <h4 className="font-semibold">
+                  <h4 className="font-semibold space-y-4">
                     {" "}
-                    Full-stack Developer (Volunteer) at Empower Her Soft
-                    (03/2025-present)
+                    Full-stack Developer (Volunteer) at Empower Her Soft (03/2025-present)
                   </h4>
-                  <p className="list-disc lisi-inside text-gray-300 space-y-2">
+                  <br/>
+                  <p className="list-disc lisi-inside text-gray-300 space-y-4">
                     • Responsible for the full-stack development of web
                     applications, including building responsive user interfaces
                     usingReact.js and JavaScript, and managing backend services
@@ -128,13 +130,14 @@ export const About = () => {
                     smoothCI/CD workflows and reliable cloud-based deployment.
                   </p>
                 </div>
-
+                <br/><br/>
                 <div>
-                  <h4 className="font-semibold">
+                  <h4 className="font-semibold space-y-4">
                     {" "}
                     Software Developer at Atos (08/2022-present)
                   </h4>
-                  <p className="list-disc lisi-inside text-gray-300 space-y-2">
+                  <br/>
+                  <p className="list-disc lisi-inside text-gray-300 space-y-4">
                     • Responsible for developing websites using React.js,
                     JavaScript, and Bootstrap, ensuring mobile responsiveness
                     andperformance.
@@ -150,12 +153,13 @@ export const About = () => {
                     standards and best practices.
                   </p>
                 </div>
-
+                <br/><br/>
                 <div>
-                  <h4 className="font-semibold">
+                  <h4 className="font-semibold space-y-4">
                     {" "}
                     Web Developer at Infosys (01/2017-05/2020)
                   </h4>
+                  <br/>
                   <p className="list-disc lisi-inside text-gray-300 space-y-2">
                     • Assisted in front-end development using HTML, CSS, and
                     JavaScript, supporting senior developers in
