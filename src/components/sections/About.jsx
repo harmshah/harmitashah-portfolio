@@ -53,10 +53,7 @@ export const About = () => {
           </h2>
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
-            <p className="text-gray-300 mb-6">
-              Passionate developer with expertise in building scalable web
-              applications and creating innovative solutions.
-            </p>
+            {/* <p className="text-gray-300 mb-6"></p> */}
             <div className="text-center">
               <h3 className="text-xl font-bold mb-4">🛠️ Technical Skills</h3>
             </div>
@@ -238,17 +235,17 @@ export const About = () => {
           </div>
 
           <div className="flex flex-col gap-6 mt-8">
-            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+            <div className="p-6 rounded-xl text-center border-white/10 border hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
               <div className="space-y-4 text-gray-300">
                 <div>
                   <h4 className="font-semibold space-y-4">
                     {" "}
                     Full-stack Developer at Empower Her Soft - Canada (Remote)
-                    (01/2025-present) · 5 mos
+                    <br />(01/2025-present) · 5 mos
                   </h4>
                   <br />
-                  <p className="list-disc lisi-inside text-gray-300 space-y-4">
+                  <p className="list-disc lisi-inside text-left text-gray-300 space-y-4">
                     • Responsible for the full-stack development of web
                     applications, building responsive and dynamic user
                     interfaces using React.js, JavaScript, and modern UI
@@ -277,11 +274,11 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold space-y-4">
                     {" "}
-                    Web Developer at sikka.ai - US (Remote) (08/2023-12/2024) ·
-                    1 yrs 5 mos
+                    Web Developer at sikka.ai - US (Remote) 
+                    <br />(08/2023-12/2024) · 1 yrs 5 mos
                   </h4>
                   <br />
-                  <p className="list-disc lisi-inside text-gray-300 space-y-4">
+                  <p className="list-disc lisi-inside text-left text-gray-300 space-y-4">
                     • Developed responsive and high-performance web applications
                     using React JS, AngularJS, JavaScript Bootstrap, CSS3 and
                     HTML5.
@@ -318,11 +315,11 @@ export const About = () => {
                   <h4 className="font-semibold space-y-4">
                     {" "}
                     Software Engineer at Axar Decision Software (Subsidiary of
-                    Sikka.ai, United State) - India (Onsite) (04/2017-03/2022) ·
-                    5 yrs
+                    Sikka.ai, United State) - India (Onsite) (04/2017-03/2022) 
+                    <br />· 5 yrs
                   </h4>
                   <br />
-                  <p className="list-disc lisi-inside text-gray-300 space-y-2">
+                  <p className="list-disc lisi-inside text-left text-gray-300 space-y-2">
                     • Assisted in front-end development using HTML, CSS, and
                     JavaScript, supporting senior developers in building
                     responsive and user-friendly web applications.
@@ -351,21 +348,19 @@ export const About = () => {
               </div>
             </div>
 
-            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4">Education</h3>
-              <ul className="list-disc lisi-inside text-gray-300 space-y-2">
+            <div className="p-6 rounded-xl text-center  border-white/10 border hover:-translate-y-1 transition-all">
+              <h3 className="text-xl font-bold mb-4">🎓 Education</h3>
+              <ul className="list-disc lisi-inside text-left text-gray-300 space-y-2">
                 <li>
                   <strong>
-                    Mobile Application Development (Ontario College
-                    Post-Graduate Certificate)
+                    Mobile Application Development (Ontario College Post-Graduate Certificate)
                   </strong>{" "}
                   <br />- Georgian College, Canada (01/2023-08/2023)
                 </li>
                 <br />
                 <li>
                   <strong>
-                    Project Management (Ontario College Post-Graduate
-                    Certificate)
+                    Project Management (Ontario College Post-Graduate Certificate)
                   </strong>{" "}
                   <br />- Sault College, Canada (05/2022-12/2022)
                 </li>
@@ -374,15 +369,14 @@ export const About = () => {
                   <strong>
                     Computer Science and Engineering (Bachelor of Engineering)
                   </strong>{" "}
-                  <br />- Gujarat Technological University, India
-                  (06/2012-06/2016)
+                  <br />- Gujarat Technological University, India (06/2012-06/2016)
                 </li>
               </ul>
             </div>
 
-            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+            <div className="p-6 rounded-xl text-center border-white/10 border hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4"> 📜 Certifications </h3>
-              <div className="space-y-4 text-gray-300">
+              <div className="space-y-4 text-left text-gray-300">
                 <div>
                   <h4 className="font-semibold space-y-4">
                     {" "}
