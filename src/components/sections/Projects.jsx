@@ -30,9 +30,13 @@ export const Projects = () => {
                   "Node.js + Express.js",
                   "JavaScript (ES6+)",
                   "CSS / Bootstrap ",
+                  "figma",
+                  "emailJS",
+                  "postman",
+                  "Chrome DevTools",
                   "MongoDB",
                   "Render",
-                  "Vercel",
+                  "Vercel"
                 ].map((tech, key) => (
                   <span
                     key={key}

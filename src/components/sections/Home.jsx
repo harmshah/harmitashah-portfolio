@@ -1,4 +1,3 @@
-
 import { RevealOnScroll } from "../ReviewOnScroll";
 
 export const Home = () => {
@@ -9,15 +8,24 @@ export const Home = () => {
     >
       <RevealOnScroll>
         <div className="text-center z-10 px-4">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right">
+          <h1 className="text-5xl md:text-5xl font-bold mt-25 mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right">
             Hi, I'm Harmita Shah
           </h1>
+          <div className="text-center">
+            <p className="tex-gray-400 text-md mb-8 max-w-5xl mx-auto">
+              Detail-oriented Software Developer with comprehensive expertise in
+              computer science fundamentals, including object-oriented
+              programming inJavaScript and C#. Adept in both front-end and
+              back-end development, boasting proficiency with HTML, CSS,
+              React.js, Angular.js, TypeScript, Node.js, Express.js, and .NET.
+              Experienced in RESTful API design/integration, database management
+              (MySQL, SQL Server, MongoDB, Firebase), andUI/UX design using
+              Figma. Well-versed in agile methodologies, sprint planning, JIRA,
+              and Git/GitHub, with a strong record of deploying and maintaining
+              full-stack applications in cloud environments.
+            </p>
+          </div>
 
-          <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            I’m a full-stack developer who loves crafting clean, scalable web
-            applications. My goal is to build solutions that offer both
-            exceptional performance and a delightful user experience.
-          </p>
           <div className="flex justify-center space-x-4">
             <a
               href="#projects"
