@@ -315,7 +315,7 @@ export const About = () => {
                   <h4 className="font-semibold space-y-4">
                     {" "}
                     Software Engineer at Axar Decision Software (Subsidiary of
-                    Sikka.ai, United State) - India (Onsite)  
+                    Sikka.ai, US) - India (Onsite)  
                     <br />(04/2017-03/2022) · 5 yrs
                   </h4>
                   <br />
